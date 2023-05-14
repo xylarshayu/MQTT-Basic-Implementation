@@ -1,0 +1,16 @@
+# .gitignore
+
+# Ignore the pipenv virtual environment directory
+.Python
+
+# Ignore pipenv files, except Pipfile which should be included
+Pipfile.lock
+
+# Ignore all .pyc, .pyo and .pyd files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore all .env files - these might contain sensitive environment variables
+*.env
